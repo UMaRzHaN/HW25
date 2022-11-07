@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.con {
+  min-width: 90%;
+  margin: 0 auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  box-shadow: 0 0 5px 0 gray;
+  gap: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.DrinkThumb {
+  width: 170px;
+  height: 150px;
+}
+.block {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* width: 60%; */
+  gap: 50px;
+}
+.drink {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  width: 167.016px;
+  height: 220px;
+  border-radius: 20px;
+  border: 1px solid gainsboro;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+.title {
+  margin-left: 120px;
+  color: #252525;
+  font-size: x-large;
+  margin-top: 8px;
+}
+.text {
+  padding: 10px;
+}
+input {
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 60%;
+  width: 20%;
+  transition: 0.2s;
+}
+input:focus,
+.drink:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+  box-shadow: 0 0 10px 0 skyblue;
+}
+input:focus {
+  color: orangered;
+}
+.icon {
+  cursor: pointer;
+}
+.mystyle {
+  color: orange;
+  background-color: black;
+}
+.mystyle_header {
+  color: orange;
+  background-color: black;
+  box-shadow: 0 0 20px 0 orangered;
+}
